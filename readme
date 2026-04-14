@@ -1,0 +1,66 @@
+IT7742_3_20231053_gagandeepSingh
+User Guide
+
+Introduction
+This prototype is a small banking application made in Windows Forms. It allows the user to
+manage customer records and also manage different account types for each customer. The main
+functions include adding customers, creating accounts, deposit, withdraw, transfer between
+accounts, adding interest, and saving data when the program closes.
+This guide explains the basic steps for using the prototype.
+
+Main Features
+The main features of the banking prototype are:
+● add a new customer
+● update customer details
+● delete a customer
+● open the account management form
+● create Everyday, Investment, and Omni accounts
+● deposit money
+● withdraw money
+● transfer money between the customer’s own accounts
+● add interest where applicable
+● save and load data using XML
+
+How to Use the Prototype
+1. Open the application
+Start the program from Visual Studio or from the built application file. The main form will open
+first.
+
+2. Add a customer
+In the main form, enter the customer number, customer name, and contact details. Tick the
+bank staff checkbox if the customer is a staff member. Then click the Add button.
+This will add the customer into the grid on the right side.
+
+3. Update or delete a customer
+Select a customer from the grid. The details will load into the input boxes. Change the details
+and click Update to save the changes. Click Delete if you want to remove the selected customer.
+
+4. Open account management
+Select a customer and click Manage Accounts. This opens the second form for account actions.
+5. Add an account
+In the Manage Accounts form, choose the account type from the dropdown list. Enter the
+opening balance and click Add Account.
+The new account will appear in the accounts grid.
+
+6. Deposit money
+Select an account from the grid. Enter the amount in the amount box and click Deposit. The
+account balance will update and a result message will show at the bottom.
+
+7. Withdraw money
+Select an account from the grid. Enter the amount and click Withdraw. If the withdrawal is valid,
+the balance will reduce. If it fails, the message will show the reason and fee if appicable.
+
+8. Transfer money
+Select the source account in the grid. Then choose the target account from the target
+dropdown. Enter the transfer amount and click Transfer.
+If the transfer is valid, the money will move from the source account to the target account. If it
+fails, the transfer will not complete and the fee rule may apply depending on the account type
+and staff status.
+
+9. Add interest
+Select an account and click Add Interest. Interest is only added when the account meets its rule.
+Everyday account does not add interest.
+
+10. Close and reopen the app
+When the application closes, customer and account data are saved automatically. When the app
+is opened again, the saved data is loaded back.
